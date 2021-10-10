@@ -146,14 +146,10 @@ body {
 }
 
 //========================Slog========================//
-
-.main {
-	&__slog {
-	}
-}
 .slog {
 	&__container {
 		border-bottom: 1px #bdbdbd solid;
+		margin-bottom: 53px;
 	}
 
 	&__columns {
@@ -177,6 +173,32 @@ body {
 
 	&__image {
 		margin-bottom: 40px;
+	}
+}
+//========================slogan========================//
+.slogan {
+	&__container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 51px;
+	}
+
+	&__title {
+		color: #000;
+		line-height: 125%;
+		font-size: 64px;
+		text-align: center;
+		max-width: 690px;
+		margin-bottom: 24px;
+	}
+
+	&__link {
+		a {
+			font-size: 12px;
+			line-height: 150%;
+			color: #000;
+		}
 	}
 }
 

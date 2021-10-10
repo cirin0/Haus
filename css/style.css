@@ -289,6 +289,7 @@ body {
 
 .slog__container {
   border-bottom: 1px #bdbdbd solid;
+  margin-bottom: 53px;
 }
 
 .slog__columns {
@@ -322,4 +323,33 @@ body {
 
 .columns__image {
   margin-bottom: 40px;
+}
+
+.slogan__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 51px;
+}
+
+.slogan__title {
+  color: #000;
+  line-height: 125%;
+  font-size: 64px;
+  text-align: center;
+  max-width: 690px;
+  margin-bottom: 24px;
+}
+
+.slogan__link a {
+  font-size: 12px;
+  line-height: 150%;
+  color: #000;
 }
