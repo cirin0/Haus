@@ -337,6 +337,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 51px;
+  margin-bottom: 80px;
 }
 
 .slogan__title {
@@ -352,4 +353,154 @@ body {
   font-size: 12px;
   line-height: 150%;
   color: #000;
+}
+
+.shop__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 61px;
+  padding-bottom: 80px;
+}
+
+.shop__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.shop__card:not(:last-child) {
+  padding-right: 20px;
+}
+
+.card__image {
+  margin-bottom: 20px;
+}
+
+.card__image img {
+  position: relative;
+}
+
+.card__title {
+  font-size: 30px;
+  line-height: 147%;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.card__sub-title {
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 27px;
+  max-width: 366px;
+}
+
+.card__btn button {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 18px 48px 20px 49px;
+  cursor: pointer;
+}
+
+.card__sale {
+  position: absolute;
+  bottom: 80%;
+  left: 65%;
+}
+
+.image-content__image {
+  margin-bottom: 55px;
+}
+
+.image-content__body-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 95px;
+  border-bottom: 1px #bdbdbd solid;
+}
+
+.body-text__title {
+  color: #000;
+  font-size: 53px;
+  line-height: 151%;
+}
+
+.body-text__sub-title {
+  color: #000;
+  font-size: 18px;
+  line-height: 178%;
+  max-width: 548px;
+}
+
+.losung__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.losung__block-text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 67px;
+}
+
+.block-text__title-small {
+  font-size: 30px;
+  line-height: 147%;
+  margin-bottom: 19px;
+}
+
+.block-text__text {
+  font-size: 18px;
+  line-height: 178%;
+  margin-bottom: 20px;
+}
+
+.block-text__title-top {
+  font-size: 36px;
+  line-height: 122%;
+  margin-bottom: 17px;
+}
+
+.block-text__title-megium {
+  margin-bottom: 19px;
+  font-size: 30px;
+  line-height: 147%;
+  margin-top: 3px;
 }

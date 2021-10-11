@@ -182,6 +182,7 @@ body {
 		align-items: center;
 		flex-direction: column;
 		margin-top: 51px;
+		margin-bottom: 80px;
 	}
 
 	&__title {
@@ -199,6 +200,161 @@ body {
 			line-height: 150%;
 			color: #000;
 		}
+	}
+}
+
+//========================shop========================//
+
+.shop {
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 61px;
+		padding-bottom: 80px;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 33.333%;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+
+		&:not(:last-child) {
+			padding-right: 20px;
+		}
+	}
+}
+.card {
+	&__image {
+		margin-bottom: 20px;
+
+		img {
+			position: relative;
+		}
+	}
+
+	&__title {
+		font-size: 30px;
+		line-height: 147%;
+
+		color: #000;
+		margin-bottom: 16px;
+	}
+
+	&__sub-title {
+		font-size: 16px;
+		line-height: 175%;
+		text-align: center;
+		color: #000;
+		margin-bottom: 27px;
+		max-width: 366px;
+	}
+
+	&__btn {
+		//text-align: center;
+
+		button {
+			background-color: #191919;
+			border: 1px solid #191919;
+			color: #fff;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 12px;
+			line-height: 14px;
+			padding: 18px 48px 20px 49px;
+			cursor: pointer;
+		}
+	}
+	&__sale {
+		position: absolute;
+		bottom: 80%;
+		left: 65%;
+	}
+}
+//========================image========================//
+.main {
+	&__image-content {
+	}
+}
+.image-content {
+	&__container {
+	}
+	&__image {
+		margin-bottom: 55px;
+	}
+	&__body-text {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 95px;
+		border-bottom: 1px #bdbdbd solid;
+	}
+}
+
+.body-text {
+	&__title {
+		color: #000;
+		font-size: 53px;
+		line-height: 151%;
+	}
+
+	&__sub-title {
+		color: #000;
+		font-size: 18px;
+		line-height: 178%;
+		max-width: 548px;
+	}
+}
+//========================losung========================//
+
+.main {
+	&__losung {
+	}
+}
+.losung {
+	&__container {
+		display: flex;
+		padding-top: 60px;
+		margin-bottom: 50px;
+	}
+
+	&__block-text {
+		color: #000;
+		display: flex;
+		flex-direction: column;
+		margin-right: 67px;
+	}
+
+	&__image {
+	}
+}
+
+.block-text {
+	&__title-small {
+		font-size: 30px;
+		line-height: 147%;
+		margin-bottom: 19px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 178%;
+		margin-bottom: 20px;
+	}
+
+	&__title-top {
+		font-size: 36px;
+		line-height: 122%;
+		margin-bottom: 17px;
+	}
+
+	&__title-megium {
+		margin-bottom: 19px;
+		font-size: 30px;
+		line-height: 147%;
+		margin-top: 3px;
 	}
 }
 
