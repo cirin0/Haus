@@ -383,6 +383,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  padding-bottom: 10px;
+  max-width: 100%;
 }
 
 .shop__card:not(:last-child) {
@@ -436,6 +438,10 @@ body {
   margin-bottom: 55px;
 }
 
+.image-content__image img {
+  max-width: 100%;
+}
+
 .image-content__body-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,12 +451,15 @@ body {
           justify-content: space-between;
   padding-bottom: 95px;
   border-bottom: 1px #bdbdbd solid;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .body-text__title {
   color: #000;
   font-size: 53px;
   line-height: 151%;
+  margin-right: 15px;
 }
 
 .body-text__sub-title {
@@ -466,6 +475,9 @@ body {
   display: flex;
   padding-top: 60px;
   margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .losung__block-text {
@@ -478,6 +490,10 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-right: 67px;
+}
+
+.losung__image img {
+  max-width: 100%;
 }
 
 .block-text__title-small {
@@ -503,4 +519,64 @@ body {
   font-size: 30px;
   line-height: 147%;
   margin-top: 3px;
+}
+
+.responce__block {
+  background: #000;
+  min-height: 313px;
+}
+
+.responce__item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.responce__item {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 95px;
+  max-width: 330px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px;
+}
+
+.item-responce__responce {
+  font-size: 18px;
+  line-height: 187%;
+  padding-bottom: 17px;
+}
+
+.item-responce__user {
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.item-responce__verf-user {
+  color: #8a8a8a;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 150%;
 }
